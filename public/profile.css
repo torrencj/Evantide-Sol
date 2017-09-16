@@ -1,0 +1,168 @@
+
+/*@import "compass/css3";*/
+
+:root {
+  --storm: #494E6B;
+  /*--cloud: #98878F; */
+  --cloud: #ceb9c3;
+  --sunset: #985E6D;
+  --evening: #192231;
+}
+
+body {
+  position: relative;
+  background-color: var(--storm);
+  padding-top: 0px;
+  /*padding-top: 65px;*/
+}
+
+main {
+  background-color: var(--cloud);
+  max-width: 1024px;
+  margin: 0 auto;
+  border-radius: 7px
+}
+
+h1{
+  margin:0px;
+  font-family: 'Roboto Slab', serif;
+  font-weight:200;
+  font-size:32px;
+  padding:0px 20px;
+/*hacks...*/
+    color:white;
+    /*background:rgba(0,0,0,0.1);*/
+    display:inline-block;
+    padding:0px 30px;
+    height:60px;
+    line-height:60px;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:400;
+}
+
+h2{
+  margin:0px;
+  font-family: 'Noto Sans';
+  font-weight:200;
+  font-size:24px;
+  /*padding:0px 20px;*/
+/*hacks...*/
+    color:#494E6B;
+    /*background:rgba(0,0,0,0.1);*/
+    /*display:inline-block;*/
+    padding:0px 30px;
+    height:60px;
+    line-height:60px;
+    /*text-align:center;*/
+    text-decoration:none;
+    letter-spacing:2px;
+}
+
+.grid {
+    padding: .5vw;
+    font-size: 0;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    -ms-flex-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+  }
+  .grid div {
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 300px;
+    margin: .5vw;
+  }
+  .grid div img {
+    width: 100%;
+    height: auto;
+  }
+  @media screen and (max-width: 400px) {
+    .grid div { margin: 0; }
+    .grid { padding: 0; }
+  }
+
+
+img {
+  max-width: 100%;
+  border-radius: 7px;
+}
+
+.navbar {
+  background:rgba(0,0,0,0.6);
+  border: none; /*This is to prevent a border on the navbar*/
+  max-width: 1024px;
+  margin: auto;
+  /*-webkit-box-shadow: 0px 6px 10px -2px rgba(0,0,0,0.18);
+-moz-box-shadow: 0px 6px 10px -2px rgba(0,0,0,0.18);
+box-shadow: 0px 6px 10px -2px rgba(0,0,0,0.18);*/
+}
+
+.banner {
+  max-width: 80%;
+  padding: 20px;
+  margin: auto;
+}
+#logo {
+  margin: 0;
+  padding: 0;
+  margin-top: -10px;
+  /*border-top-right-radius: 100%;
+  border-top-left-radius: 100%;*/
+  /*max-width: 50px;*/
+  max-height: 40px;
+}
+
+#hero1{
+ background:url(/img/banner.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+/*#hero2{background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/21555/Melissani-cave-natural.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}*/
+.hero, .content{
+  text-align:center;
+  position:relative;
+  width: 100%;
+}
+
+.inner{
+  min-height:700px;
+  position: relative;
+}
+
+.hero .inner{
+  /*background: rgba(0,0,0,.2) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;*/
+background: rgba(0,0,0,.7);
+}
+
+
+.copy{
+  position:absolute;
+  top:50%;
+  height:10em;
+  margin-top:-5em;
+  width:100%;
+}
+
+
+#photos {
+
+}
+#contact {
+  margin-bottom: 20px;
+  /*height: 720px;*/
+}
+.navbar-brand {
+
+}

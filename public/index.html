@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Horses</title>
+
+    <style type="text/css">
+    /*body {
+        padding-top: 60px;
+    }*/
+</style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./profile.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  </head>
+
+  <body id="body" data-spy="scroll" data-target="#navbar-scroll">
+
+
+    <nav id="navbar-scroll" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+<!-- TODO This needs to be centered in a sane kind of way.  -->
+          <a class="navbar-brand" href="#"> <img id="logo" src="/img/logo.png"> </a>
+<!--  TODO fix this icon!-->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#body">What we do<span class="sr-only">(current)</span></a></li>
+            <li><a href="#about">Who we are</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<main>
+  <section id="hero1" class="hero">
+    <div class="inner">
+      <div class="copy">
+      <h1>A home for horses</h1>
+      <p></p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about" class="content">
+    <div class="inner">
+      <div class="copy">
+      <h1>We have years of horse experience</h1>
+      <h2>Let us get kicked so you don't have to.</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- <header id="header" class="welcome banner">
+    <h2 class="text-responsive"> We have years of horse experience</h2>
+    <h4>Let us get kicked so you don't have to.</h4> -->
+    <!-- <img src="banner.jpg" alt=""> -->
+
+  </header>
+
+  <section id="photos">
+    <hr />
+    <div class="grid">
+      <div><img src="/img/first.jpg" alt=""></div>
+      <div><img src="/img/second.jpg" alt=""></div>
+      <div><img src="/img/third.jpg" alt=""></div>
+      <div><img src="/img/first.jpg" alt=""></div>
+      <div><img src="/img/second.jpg" alt=""></div>
+      <div><img src="/img/third.jpg" alt=""></div>
+
+    </div>
+    <hr />
+  </section>
+
+  <section id="contact" class="main text">
+    <h2>Get in touch</h2>
+    <img src="/img/contact.png" alt="">
+  </section>
+
+</main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $('body').scrollspy({ target: '#navbar-example' });
+  </script>
+  </body>
+</html>
